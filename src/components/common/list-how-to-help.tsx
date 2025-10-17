@@ -1,15 +1,12 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { CardHowToHelp } from "./card-how-to-help";
 import { Button } from "../ui/button";
 import Link from "next/link";
-import { cn } from "../../lib/utils";
 
 export const ListHowToHelp = () => {
   const [activeId, setActiveId] = useState<number>(1);
-  const latestActiveIdRef = useRef(activeId);
-  const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   const listCards = [
     {
