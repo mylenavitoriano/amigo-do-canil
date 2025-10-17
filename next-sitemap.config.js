@@ -11,11 +11,12 @@ module.exports = {
     policies: [
       {
         userAgent: "*",
-        allow: "/", // permite o rastreamento de todas as páginas
+        allow: "/", // permite indexar todas as páginas principais
+        disallow: ["/404", "/api/", "/admin", "/server-sitemap-index.xml"],
       },
       {
-        userAgent: "*",
-        disallow: ["/404", "/api/"], // evita que o Google indexe APIs ou páginas de erro
+        userAgent: "Googlebot-Image", // otimização para o Google Imagens
+        allow: ["/images/", "/public/"],
       },
     ],
     additionalSitemaps: ["https://www.amigodocanil.com.br/sitemap.xml"],
