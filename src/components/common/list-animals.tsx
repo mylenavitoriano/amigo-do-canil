@@ -75,8 +75,8 @@ export const ListAnimals = ({ title }: { title?: string }) => {
             })}
           </CarouselContent>
 
-          <CarouselPrevious className="bg-secondary text-secondary-foreground" />
-          <CarouselNext className="bg-secondary text-secondary-foreground" />
+          <CarouselPrevious className="bg-secondary text-secondary-foreground hidden md:block" />
+          <CarouselNext className="bg-secondary text-secondary-foreground hidden md:block" />
         </Carousel>
 
         <div className="flex justify-end w-full mt-0 gap-1">
