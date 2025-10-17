@@ -21,7 +21,6 @@ const ActionsAnimalDetails = ({ name, gender }: ActionsAnimalDetailsProps) => {
           Quero adotar {gender == "Macho" ? "o" : "a"} {name}
         </Link>
       </Button>
-
       <Button
         className="lg:text-lg lg:px-8 lg:py-6 rounded-2xl"
         variant={"secondary"}
