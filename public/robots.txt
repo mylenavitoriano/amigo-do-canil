@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://amigodocanil.com.br
+
+# Sitemaps
+Sitemap: https://amigodocanil.com.br/sitemap.xml
