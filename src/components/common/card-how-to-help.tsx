@@ -42,7 +42,7 @@ export const CardHowToHelp = ({
       />
 
       {/* CONTEÚDO: acima do overlay */}
-      <div className="relative z-10 md:h-46">
+      <div className="relative z-10 h-[50%] md:h-46">
         <div className="h-16 w-16 flex items-end justify-start">
           <Image src={card.icon} alt={card.title} width={60} height={60} />
         </div>
