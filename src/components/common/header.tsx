@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa6";
 
 const Header = () => {
   return (
@@ -16,16 +17,28 @@ const Header = () => {
         />
       </Link>
 
-      <Link
-        href={
-          "https://wa.me/5519996860560?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20ONG."
-        }
-        target="_blank"
-        className="flex items-end gap-1"
-      >
-        <FaWhatsapp size={20} />
-        <p className="text-sm md:text-base font-medium">(19) 99686-0560</p>
-      </Link>
+      <div className="flex gap-2.5 md:gap-4">
+        <Link
+          href={"https://www.facebook.com/share/g/17BbKPq4uu/"}
+          target="_blank"
+        >
+          <FaFacebook size={20} className="md:h-6 md:w-6" />
+        </Link>
+        <Link
+          href={"https://www.instagram.com/amigodocanilrioclaro/"}
+          target="_blank"
+        >
+          <FaInstagram size={20} className="md:h-6 md:w-6" />
+        </Link>
+        <Link
+          href={
+            "https://wa.me/5519996860560?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20ONG."
+          }
+          target="_blank"
+        >
+          <FaWhatsapp size={20} className="md:h-6 md:w-6" />
+        </Link>
+      </div>
     </header>
   );
 };

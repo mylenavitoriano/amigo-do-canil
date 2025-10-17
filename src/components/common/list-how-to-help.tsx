@@ -46,17 +46,17 @@ export const ListHowToHelp = () => {
       </h3>
 
       {/* ===== MOBILE: empilhamento progressivo ===== */}
-      <ul className="grid grid-cols-1 list-none grid-rows-4 gap-16 md:hidden">
+      <ul className="grid grid-cols-1 list-none grid-rows-4 md:hidden">
         {listCards.map((card, i) => (
           <li
             key={card.id}
             data-id={card.id}
-            className={"sticky h-[90vh] top-0"}
-            style={{ paddingTop: `${(i + 1) * 1}rem` }}
+            className={"sticky h-[50vh] top-0"}
+            style={{
+              paddingTop: `${(i + 1) * 0.5}rem`,
+            }}
           >
             <CardHowToHelp card={card} isActive={true} onHover={() => {}} />
-
-            {/* <p>OI + {i}</p> */}
           </li>
         ))}
       </ul>

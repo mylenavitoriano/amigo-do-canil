@@ -4,12 +4,13 @@ import Image from "next/image";
 import { Wave } from "./wave";
 import { FaLocationDot, FaPix } from "react-icons/fa6";
 import { toast } from "sonner";
+import { MdContentCopy } from "react-icons/md";
 
 export const Contribute = () => {
   const handleCopy = async () => {
     try {
       await navigator.clipboard.writeText("58.324.268/0001-69");
-      toast.success("Texto copiado para a área de transferência");
+      toast.success("Chave PIX copiada para a área de transferência");
     } catch (err) {
       console.error("Erro ao copiar texto: ", err);
     }
@@ -26,7 +27,7 @@ export const Contribute = () => {
         </p>
 
         <div className="mt-8 flex flex-col lg:flex-row justify-between gap-7">
-          <div className="bg-white rounded-2xl p-8 w-full flex flex-col md:flex-row gap-2 md:gap-5 items-center">
+          <div className="bg-white rounded-2xl p-5 md:p-8 w-full flex flex-col md:flex-row gap-2 md:gap-5 items-center">
             <div className="space-y-2 md:space-y-3">
               <p className="text-lg md:text-xl font-semibold text-center md:text-start">
                 Ajude com uma doação
@@ -43,6 +44,11 @@ export const Contribute = () => {
                 >
                   58.324.268/0001-69
                 </p>
+                <MdContentCopy
+                  size={16}
+                  className="text-primary cursor-pointer"
+                  onClick={handleCopy}
+                />
               </div>
             </div>
             <div className="w-full md:w-[50%]">
@@ -63,10 +69,15 @@ export const Contribute = () => {
               >
                 58.324.268/0001-69
               </p>
+              <MdContentCopy
+                size={16}
+                className="text-primary cursor-pointer"
+                onClick={handleCopy}
+              />
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl p-8 w-full flex flex-col md:flex-row gap-2 md:gap-5 items-center">
+          <div className="bg-white rounded-2xl p-5 md:p-8 w-full flex flex-col md:flex-row gap-2 md:gap-5 items-center">
             <div className="space-y-2 md:space-y-3">
               <p className="text-lg md:text-xl font-semibold text-center md:text-start">
                 Doe ração e mantimentos

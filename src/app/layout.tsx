@@ -12,7 +12,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: "Amigo do Canil",
-  description: "Conheça nossos animais",
+  description: "Associação Amigo do Canil Rio claro",
 };
 
 export default function RootLayout({
