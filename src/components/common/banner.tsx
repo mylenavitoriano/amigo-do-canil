@@ -10,6 +10,7 @@ import {
 import Image from "next/image";
 import { Button } from "../ui/button";
 import { useRef } from "react";
+import Link from "next/link";
 
 export const BannerHome = () => {
   // useRef para o autoplay
@@ -39,8 +40,8 @@ export const BannerHome = () => {
                   Adotar é mais do que salvar uma vida — é ganhar um companheiro
                   para sempre.
                 </p>
-                <Button className="mt-2.5 lg:mt-8 lg:text-lg lg:p-6">
-                  Quero adotar
+                <Button className="mt-2.5 lg:mt-8 lg:text-lg lg:p-6" asChild>
+                  <Link href={"/animais"}>Quero adotar</Link>
                 </Button>
               </div>
               <div className="md:w-[50%] xl:w-fit h-full">

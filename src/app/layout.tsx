@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "sonner";
 
 // Importa a fonte Montserrat
 const montserrat = Montserrat({
@@ -25,6 +26,7 @@ export default function RootLayout({
         className={`${montserrat.variable} font-sans antialiased overflow-x-hidden`}
       >
         {children}
+        <Toaster />
       </body>
     </html>
   );

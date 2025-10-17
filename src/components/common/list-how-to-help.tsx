@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { CardHowToHelp } from "./card-how-to-help";
 import { Button } from "../ui/button";
 import Link from "next/link";
+import { cn } from "../../lib/utils";
 
 export const ListHowToHelp = () => {
   const [activeId, setActiveId] = useState<number>(1);
@@ -41,75 +42,27 @@ export const ListHowToHelp = () => {
     },
   ];
 
-  useEffect(() => {
-    let timeout: NodeJS.Timeout;
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        let maxRatio = 0;
-        let visibleId = latestActiveIdRef.current;
-
-        for (const entry of entries) {
-          const ratio = entry.intersectionRatio;
-          const id = Number((entry.target as HTMLElement).dataset.id);
-          if (ratio > maxRatio + 0.05) {
-            // exige diferença mínima
-            maxRatio = ratio;
-            visibleId = id;
-          }
-        }
-
-        clearTimeout(timeout);
-        timeout = setTimeout(() => {
-          if (visibleId !== latestActiveIdRef.current) {
-            latestActiveIdRef.current = visibleId;
-            setActiveId(visibleId);
-          }
-        }, 120);
-      },
-      {
-        rootMargin: "-10% 0px -10% 0px",
-        threshold: Array.from({ length: 21 }, (_, i) => i / 20),
-      }
-    );
-
-    cardRefs.current.forEach((el) => el && observer.observe(el));
-
-    return () => {
-      observer.disconnect();
-      clearTimeout(timeout);
-    };
-  }, []);
-
   return (
-    <div className="flex flex-col items-center gap-8 mt-16 px-5 xl:px-0 xl:max-w-[75vw] mx-auto">
+    <div className="flex flex-col items-center gap-4 md:gap-8 mt-16 px-5 xl:px-0 xl:max-w-[75vw] mx-auto">
       <h3 className="text-xl md:text-2xl text-text-primary font-semibold text-center">
         Como fazer parte dessa corrente do bem
       </h3>
 
       {/* ===== MOBILE: empilhamento progressivo ===== */}
-      <div className="flex flex-col gap-5 md:hidden">
+      <ul className="grid grid-cols-1 list-none grid-rows-4 gap-16 md:hidden">
         {listCards.map((card, i) => (
-          <div
+          <li
             key={card.id}
-            ref={(el) => {
-              cardRefs.current[i] = el;
-            }}
             data-id={card.id}
-            className={`sticky top-5 right-0 left-0 transition-all duration-500 ease-in-out transform ${
-              activeId === card.id
-                ? "scale-105 opacity-100 z-10"
-                : "scale-100 opacity-90 z-0"
-            }`}
+            className={"sticky h-[90vh] top-0"}
+            style={{ paddingTop: `${(i + 1) * 1}rem` }}
           >
-            <CardHowToHelp
-              card={card}
-              isActive={activeId === card.id}
-              onHover={() => {}}
-            />
-          </div>
+            <CardHowToHelp card={card} isActive={true} onHover={() => {}} />
+
+            {/* <p>OI + {i}</p> */}
+          </li>
         ))}
-      </div>
+      </ul>
 
       {/* ===== DESKTOP ===== */}
       <div className="hidden md:flex flex-col gap-6 md:flex-row md:items-stretch md:justify-center md:gap-4 transition-all duration-500 w-full">

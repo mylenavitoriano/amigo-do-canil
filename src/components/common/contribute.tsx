@@ -1,8 +1,19 @@
+"use client";
+
 import Image from "next/image";
 import { Wave } from "./wave";
 import { FaLocationDot, FaPix } from "react-icons/fa6";
+import { toast } from "sonner";
 
 export const Contribute = () => {
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText("58.324.268/0001-69");
+      toast.success("Texto copiado para a área de transferência");
+    } catch (err) {
+      console.error("Erro ao copiar texto: ", err);
+    }
+  };
   return (
     <div className="relative overflow-hidden">
       <Wave />
@@ -26,7 +37,12 @@ export const Contribute = () => {
               </p>
               <div className="hidden md:flex items-center gap-2 mt-5">
                 <FaPix size={32} className="text-primary" />
-                <p className="font-semibold text-lg">58.324.268/0001-69</p>
+                <p
+                  className="font-semibold text-lg cursor-pointer"
+                  onClick={handleCopy}
+                >
+                  58.324.268/0001-69
+                </p>
               </div>
             </div>
             <div className="w-full md:w-[50%]">
@@ -41,7 +57,10 @@ export const Contribute = () => {
             </div>
             <div className="flex md:hidden items-center gap-2 mt-5">
               <FaPix size={32} className="text-primary" />
-              <p className="font-semibold text-base/5 md:text-lg">
+              <p
+                className="font-semibold text-base/5 md:text-lg cursor-pointer"
+                onClick={handleCopy}
+              >
                 58.324.268/0001-69
               </p>
             </div>
