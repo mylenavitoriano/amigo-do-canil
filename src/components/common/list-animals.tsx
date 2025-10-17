@@ -36,7 +36,7 @@ export const ListAnimals = ({ title }: { title?: string }) => {
   }, [api]);
 
   return (
-    <div className="px-16 xl:px-0 xl:max-w-[75vw] mx-auto mt-16">
+    <div className="px-5 md:px-16 xl:px-0 xl:max-w-[75vw] mx-auto mt-16">
       <div className="flex flex-col items-center justify-center">
         <h3 className="text-xl md:text-2xl font-semibold text-text-primary">
           {heading}
@@ -62,7 +62,7 @@ export const ListAnimals = ({ title }: { title?: string }) => {
                     className={`transition-all duration-500 ease-in-out rounded-2xl mx-auto ${
                       current == index + 1
                         ? "shadow-lg z-10 opacity-100 -translate-y-2"
-                        : "scale-80 opacity-80"
+                        : "md:scale-80 opacity-80"
                     }`}
                   >
                     <CardAnimals
@@ -75,8 +75,8 @@ export const ListAnimals = ({ title }: { title?: string }) => {
             })}
           </CarouselContent>
 
-          <CarouselPrevious className="bg-secondary text-secondary-foreground hidden md:block" />
-          <CarouselNext className="bg-secondary text-secondary-foreground hidden md:block" />
+          <CarouselPrevious className="bg-secondary text-secondary-foreground hidden md:flex" />
+          <CarouselNext className="bg-secondary text-secondary-foreground hidden md:flex" />
         </Carousel>
 
         <div className="flex justify-end w-full mt-0 gap-1">
