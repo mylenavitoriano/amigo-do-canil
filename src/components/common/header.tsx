@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between p-5">
+    <header className="flex items-center justify-between p-5 mx-auto">
       <Link href={"/"}>
         <Image
           src="/logo-name.svg"
