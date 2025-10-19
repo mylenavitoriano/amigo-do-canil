@@ -1,11 +1,15 @@
 # *
 User-agent: *
 Allow: /
-
-# *
-User-agent: *
 Disallow: /404
 Disallow: /api/
+Disallow: /admin
+Disallow: /server-sitemap-index.xml
+
+# Googlebot-Image
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /public/
 
 # Host
 Host: https://www.amigodocanil.com.br

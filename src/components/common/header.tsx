@@ -17,18 +17,18 @@ const Header = () => {
         />
       </Link>
 
-      <div className="flex gap-2.5 md:gap-4">
+      <div className="flex gap-3 md:gap-4">
         <Link
           href={"https://www.facebook.com/share/g/17BbKPq4uu/"}
           target="_blank"
         >
-          <FaFacebook size={20} className="md:h-6 md:w-6" />
+          <FaFacebook size={28} />
         </Link>
         <Link
           href={"https://www.instagram.com/amigodocanilrioclaro/"}
           target="_blank"
         >
-          <FaInstagram size={20} className="md:h-6 md:w-6" />
+          <FaInstagram size={28} />
         </Link>
         <Link
           href={
@@ -36,7 +36,7 @@ const Header = () => {
           }
           target="_blank"
         >
-          <FaWhatsapp size={20} className="md:h-6 md:w-6" />
+          <FaWhatsapp size={28} />
         </Link>
       </div>
     </header>

@@ -67,7 +67,7 @@ export const BannerHome = () => {
               </div>
             </div>
           </CarouselItem>
-          {/* <CarouselItem className="bg-banner-orange md:max-h-[500px] lg:max-h-[450px] h-full">
+          <CarouselItem className="bg-banner-orange md:max-h-[500px] lg:max-h-[450px] h-full">
             <div className="flex flex-col-reverse md:flex-row md:gap-6 md:max-h-[500px] lg:max-h-[450px] h-full md:items-start justify-center">
               <div className="md:w-[50%] xl:w-fit h-full">
                 <Image
@@ -101,12 +101,13 @@ export const BannerHome = () => {
                 <Button
                   className="mt-2.5 lg:mt-8 lg:text-lg lg:p-6"
                   variant={"secondary"}
+                  asChild
                 >
-                  Confira a Agenda
+                  <Link href={"/eventos"}>Confira a Agenda</Link>
                 </Button>
               </div>
             </div>
-          </CarouselItem> */}
+          </CarouselItem>
         </CarouselContent>
       </Carousel>
     </div>
