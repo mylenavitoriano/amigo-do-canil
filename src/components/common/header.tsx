@@ -6,7 +6,6 @@ import { FaFacebook, FaInstagram } from "react-icons/fa6";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
