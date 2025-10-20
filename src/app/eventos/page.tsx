@@ -1,4 +1,4 @@
-import { upcomingEvents } from "../../../events";
+import { upcomingEvents } from "../../data/events";
 import Footer from "../../components/common/footer";
 import Header from "../../components/common/header";
 import { ListAnimals } from "../../components/common/list-animals";

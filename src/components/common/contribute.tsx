@@ -16,7 +16,7 @@ export const Contribute = () => {
     }
   };
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden mt-16">
       <Wave />
       <div className="relative z-10 py-8 px-8 xl:max-w-[75vw] mx-auto">
         <h3 className="text-xl md:text-2xl font-semibold text-text-primary text-center">

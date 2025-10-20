@@ -1,15 +1,18 @@
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export const AboutUsHome = () => {
   return (
-    <div className="flex px-5 mt-8 gap-8 lg:gap-16 md:justify-between xl:px-0 md:items-center xl:max-w-[75vw] mx-auto">
+    <div className="flex px-5 mt-16 gap-8 lg:gap-16 md:justify-between xl:px-0 md:items-center xl:max-w-[75vw] mx-auto">
       <Image
         alt="Cachorro branco e preto em feira de adoção"
-        src="/image-about-us.png"
+        src="/image-sobre-nos-home.png"
         width={0}
         height={0}
         sizes="100vw"
         className="h-full md:max-h-[510px] w-full md:w-auto hidden md:block"
+        quality={100}
       />
 
       <div className="md:w-[60%]">
@@ -33,11 +36,12 @@ export const AboutUsHome = () => {
 
           <Image
             alt="Cachorro branco e preto em feira de adoção"
-            src="/image-about-us.png"
+            src="/image-sobre-nos-home.png"
             width={0}
             height={0}
             sizes="100vw"
             className="h-full w-full md:hidden py-2.5"
+            quality={100}
           />
           <p>
             Além dos resgates, realizamos feiras mensais de adoção e, quando
@@ -45,6 +49,15 @@ export const AboutUsHome = () => {
             conforme nossa capacidade, pois cuidar bem é o primeiro passo para
             transformar vidas.
           </p>
+          <div className="flex justify-start w-full mt-5 gap-1">
+            <Link
+              href={"/sobre"}
+              className="flex justify-start w-full mt-0 gap-1 text-text-primary"
+            >
+              <p className="font-semibold">Conhecer mais</p>
+              <ArrowRight />
+            </Link>
+          </div>
         </div>
       </div>
     </div>

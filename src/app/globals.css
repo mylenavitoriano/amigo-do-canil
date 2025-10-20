@@ -127,14 +127,3 @@
     @apply bg-background text-foreground;
   }
 }
-
-.stack-card {
-  transform: translateY(80px);
-  opacity: 0.5;
-  transition: transform 0.6s ease, opacity 0.6s ease;
-}
-
-.stack-card.visible {
-  transform: translateY(0);
-  opacity: 1;
-}

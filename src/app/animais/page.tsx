@@ -1,4 +1,4 @@
-import { animals } from "../../../animails";
+import { animals } from "../../data/animails";
 import { CardAnimals } from "../../components/common/card-animal";
 import Footer from "../../components/common/footer";
 import Header from "../../components/common/header";

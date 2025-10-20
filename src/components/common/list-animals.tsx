@@ -8,7 +8,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { animals } from "../../../animails";
+import { animals } from "../../data/animails";
 import { CardAnimals } from "./card-animal";
 import Autoplay from "embla-carousel-autoplay";
 import { useEffect, useState } from "react";

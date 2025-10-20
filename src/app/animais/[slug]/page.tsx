@@ -1,4 +1,4 @@
-import { animals } from "../../../../animails";
+import { animals } from "../../../data/animails";
 import Footer from "../../../components/common/footer";
 import Header from "../../../components/common/header";
 import { notFound } from "next/navigation";
