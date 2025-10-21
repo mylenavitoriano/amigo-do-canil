@@ -10,7 +10,7 @@ const montserrat = Montserrat({
   weight: ["400", "500", "600", "700"], // adicione os pesos que quiser usar
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Amigo do Canil | ONG de proteção animal",
   description:
     "Conheça a Amigo do Canil, uma ONG que resgata, acolhe e busca lares para cães e gatos em Rio Claro.",
@@ -22,6 +22,11 @@ export const metadata = {
     siteName: "Amigo do Canil",
     locale: "pt_BR",
     type: "website",
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 };
 

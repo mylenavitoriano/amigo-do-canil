@@ -46,23 +46,27 @@ export const BannerHome = () => {
               </div>
               <div className="md:w-[50%] xl:w-fit h-full">
                 <Image
-                  src="/image-banner-01-mobile.png"
+                  src="/image-banner-01-mobile.webp"
                   alt="Quero adotar"
                   quality={100}
                   width={0}
                   height={0}
                   sizes="100vw"
                   className="h-auto w-full md:hidden"
+                  priority
+                  fetchPriority="high"
                 />
 
                 <Image
-                  src="/image-banner-01.png"
+                  src="/image-banner-01.webp"
                   alt="Quero adotar"
                   quality={100}
                   width={0}
                   height={0}
                   sizes="100vw"
                   className="h-full w-auto hidden md:block md:max-h-[500px] lg:max-h-[450px]"
+                  priority
+                  fetchPriority="high"
                 />
               </div>
             </div>
@@ -71,23 +75,27 @@ export const BannerHome = () => {
             <div className="flex flex-col-reverse md:flex-row md:gap-6 md:max-h-[500px] lg:max-h-[450px] h-full md:items-start justify-center">
               <div className="md:w-[50%] xl:w-fit h-full">
                 <Image
-                  src="/image-banner-02-mobile.png"
+                  src="/image-banner-02-mobile.webp"
                   alt="Confira a Agenda"
                   quality={100}
                   width={0}
                   height={0}
                   sizes="100vw"
                   className="h-auto w-full md:hidden"
+                  priority
+                  fetchPriority="high"
                 />
 
                 <Image
-                  src="/image-banner-02.png"
+                  src="/image-banner-02.webp"
                   alt="Confira a Agenda"
                   quality={100}
                   width={0}
                   height={0}
                   sizes="100vw"
                   className="h-full w-auto hidden md:block md:max-h-[500px] lg:max-h-[450px]"
+                  priority
+                  fetchPriority="high"
                 />
               </div>
               <div className="space-y-2 md:space-y-5 px-4 mt-8 md:mt-12 lg:mt-20 md:w-[50%] xl:w-fit md:px-10">

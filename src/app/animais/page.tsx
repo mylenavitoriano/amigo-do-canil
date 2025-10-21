@@ -3,6 +3,14 @@ import { CardAnimals } from "../../components/common/card-animal";
 import Footer from "../../components/common/footer";
 import Header from "../../components/common/header";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Encontre seu novo melhor amigo | Amigo do Canil",
+  description:
+    "Cada focinho aqui tem uma história de superação. Adote um cão ou gato da Amigo do Canil e ofereça um recomeço cheio de amor, segurança e carinho.",
+};
+
 export default function Animals() {
   return (
     <>

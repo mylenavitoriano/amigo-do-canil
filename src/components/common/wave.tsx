@@ -5,7 +5,7 @@ export function Wave() {
         className="w-[100vw] h-96 sm:h-[30vh] md:h-[50vh] lg:h-[70vh] block"
         viewBox="0 0 1440 920"
         fill="none"
-        xmlns="http://www.w3.org/2000/svg"
+        xmlns="https://www.w3.org/2000/svg"
         preserveAspectRatio="none"
       >
         <path

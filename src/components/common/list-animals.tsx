@@ -54,7 +54,7 @@ export const ListAnimals = ({ title }: { title?: string }) => {
               return (
                 <CarouselItem
                   key={animal.id}
-                  className={`basis-1/1 lg:basis-1/2 xl:basis-1/3 py-2 px-8 md:px-0`}
+                  className={`basis-1/1 md:basis-1/2 xl:basis-1/3 py-2 md:px-0`}
                 >
                   <div
                     className={`transition-all duration-500 ease-in-out rounded-2xl mx-auto ${

@@ -43,12 +43,14 @@ const Header = () => {
           <Link
             href={"https://www.facebook.com/share/g/17BbKPq4uu/"}
             target="_blank"
+            title="Facebook"
           >
             <FaFacebook size={28} />
           </Link>
           <Link
             href={"https://www.instagram.com/amigodocanilrioclaro/"}
             target="_blank"
+            title="Instagram"
           >
             <FaInstagram size={28} />
           </Link>
@@ -57,6 +59,7 @@ const Header = () => {
               "https://wa.me/5519996860560?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20ONG."
             }
             target="_blank"
+            title="WhatsApp"
           >
             <FaWhatsapp size={28} />
           </Link>
@@ -89,12 +92,14 @@ const Header = () => {
               <Link
                 href={"https://www.facebook.com/share/g/17BbKPq4uu/"}
                 target="_blank"
+                title="Facebook"
               >
                 <FaFacebook size={28} />
               </Link>
               <Link
                 href={"https://www.instagram.com/amigodocanilrioclaro/"}
                 target="_blank"
+                title="Instagram"
               >
                 <FaInstagram size={28} />
               </Link>
@@ -103,6 +108,7 @@ const Header = () => {
                   "https://wa.me/5519996860560?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20ONG."
                 }
                 target="_blank"
+                title="WhatsApp"
               >
                 <FaWhatsapp size={28} />
               </Link>

@@ -5,9 +5,68 @@ import { notFound } from "next/navigation";
 import ImagesAnimal from "./components/images-animal";
 import ActionsAnimalDetails from "./components/actions";
 import { ListAnimals } from "../../../components/common/list-animals";
+import { Metadata } from "next";
 
 interface AnimalDetailsPageProps {
   params: Promise<{ slug: string }>;
+}
+
+export async function generateMetadata({
+  params,
+}: AnimalDetailsPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const animalDetail = animals.find((animal) => animal.slug === slug);
+
+  if (!animalDetail) {
+    return {
+      title: "Animal não encontrado | Amigo do Canil",
+      description:
+        "O animal que você tentou acessar não foi encontrado. Conheça outros pets disponíveis para adoção na Amigo do Canil.",
+    };
+  }
+
+  // Limpa e limita a descrição
+  const cleanDescription = animalDetail.description
+    .replace(/\n/g, " ") // remove quebras de linha
+    .replace(/\s+/g, " ") // normaliza espaços
+    .slice(0, 155)
+    .trim();
+
+  const pageTitle = `${animalDetail.name} para adoção | Amigo do Canil`;
+  const pageUrl = `https://www.amigodocanil.com.br/animais/${slug}`;
+  const imageUrl =
+    animalDetail.imagesURLs?.[0] ||
+    "https://www.amigodocanil.com.br/default.jpg";
+
+  return {
+    title: pageTitle,
+    description: cleanDescription,
+    alternates: {
+      canonical: pageUrl,
+    },
+    openGraph: {
+      title: pageTitle,
+      description: cleanDescription,
+      url: pageUrl,
+      type: "article",
+      siteName: "Amigo do Canil",
+      locale: "pt_BR",
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 630,
+          alt: animalDetail.name,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: pageTitle,
+      description: cleanDescription,
+      images: [imageUrl],
+    },
+  };
 }
 
 const AnimalDetailsPage = async ({ params }: AnimalDetailsPageProps) => {

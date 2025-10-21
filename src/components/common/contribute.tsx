@@ -53,7 +53,7 @@ export const Contribute = () => {
             </div>
             <div className="w-full md:w-[50%]">
               <Image
-                src="/qr-code.png"
+                src="/qr-code.webp"
                 alt="58.324.268/0001-69"
                 width={0}
                 height={0}
@@ -95,12 +95,14 @@ export const Contribute = () => {
             </div>
 
             <iframe
+              title="Av. Saburô Akamine, 1125"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14755.018690161309!2d-47.58524112144637!3d-22.40060409080469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7db183c9feebd%3A0x8f621a5c1dc0b9c9!2sAv.%20Sabur%C3%B4%20Akamine%2C%201125%20-%20Jardim%20Matheus%20Maniero%2C%20Rio%20Claro%20-%20SP%2C%2013504-251!5e0!3m2!1spt-BR!2sbr!4v1760638298541!5m2!1spt-BR!2sbr"
-              height="190"
+              height="240"
               className="border-0 w-full md:w-[50%]"
               allowFullScreen={false}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              sandbox="allow-same-origin allow-scripts allow-popups"
             ></iframe>
 
             <div className="flex md:hidden items-center gap-2 mt-5">

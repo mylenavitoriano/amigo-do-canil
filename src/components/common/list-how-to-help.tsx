@@ -14,28 +14,28 @@ export const ListHowToHelp = () => {
       title: "Adote com o Coração",
       description: "Dê um lar e amor a quem só precisa de uma chance.",
       icon: "/icons/icon-paw.svg",
-      image: "/image-card-adote.png",
+      image: "/image-card-adote.webp",
     },
     {
       id: 1,
       title: "Doe Amor e Esperança",
       description: "Doe ração, mantimentos ou ajude financeiramente.",
       icon: "/icons/icon-donation.svg",
-      image: "/image-card-doacao.png",
+      image: "/image-card-doacao.webp",
     },
     {
       id: 2,
       title: "Seja um Voluntário",
       description: "Doe seu tempo e carinho aos nossos resgates.",
       icon: "/icons/icon-voluntary.svg",
-      image: "/image-card-voluntario.png",
+      image: "/image-card-voluntario.webp",
     },
     {
       id: 3,
       title: "Apadrinhe um Amigo",
       description: "Acompanhe e apoie de perto um dos nossos peludos.",
       icon: "/icons/icon-gift.svg",
-      image: "/image-card-apadrinhe.png",
+      image: "/image-card-apadrinhe.webp",
     },
   ];
 

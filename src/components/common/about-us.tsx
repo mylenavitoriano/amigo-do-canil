@@ -7,7 +7,7 @@ export const AboutUsHome = () => {
     <div className="flex px-5 mt-16 gap-8 lg:gap-16 md:justify-between xl:px-0 md:items-center xl:max-w-[75vw] mx-auto">
       <Image
         alt="Cachorro branco e preto em feira de adoção"
-        src="/image-sobre-nos-home.png"
+        src="/image-sobre-nos-home.webp"
         width={0}
         height={0}
         sizes="100vw"
@@ -36,12 +36,13 @@ export const AboutUsHome = () => {
 
           <Image
             alt="Cachorro branco e preto em feira de adoção"
-            src="/image-sobre-nos-home.png"
+            src="/image-sobre-nos-home.webp"
             width={0}
             height={0}
             sizes="100vw"
             className="h-full w-full md:hidden py-2.5"
             quality={100}
+            loading="lazy"
           />
           <p>
             Além dos resgates, realizamos feiras mensais de adoção e, quando

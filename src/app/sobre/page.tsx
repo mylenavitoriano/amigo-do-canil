@@ -5,6 +5,14 @@ import { Coordination } from "./components/coordination";
 import { Volunteers } from "./components/volunteers";
 import { Contribute } from "../../components/common/contribute";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Sobre nós | Amigo do Canil",
+  description:
+    "Conheça a história da ONG Amigo do Canil, nossa missão, visão e os projetos que salvam vidas todos os dias.",
+};
+
 export default function SobreNos() {
   return (
     <>
@@ -13,7 +21,7 @@ export default function SobreNos() {
         <div className="flex gap-10 items-center">
           <Image
             alt="Cinco cachorros filhotes juntos sentados no chão"
-            src="/image-sobre-nos.png"
+            src="/image-sobre-nos.webp"
             width={0}
             height={0}
             sizes="100vw"
@@ -42,7 +50,7 @@ export default function SobreNos() {
               </ul>
               <Image
                 alt="Cinco cachorros filhotes juntos sentados no chão"
-                src="/image-sobre-nos.png"
+                src="/image-sobre-nos.webp"
                 width={0}
                 height={0}
                 sizes="100vw"

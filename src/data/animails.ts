@@ -61,7 +61,8 @@ export const animals = [
     name: "Hosana",
     gender: "Fêmea",
     behavior: "Agitada e brincalhona",
-    description: "",
+    description:
+      "A Fabíola, presidente da ONG, tinha acabado de saber que o Scott — um cachorrinho adotado há cerca de um ano — havia fugido. \nNo supermercado Examine, o destino preparou uma surpresa: um cãozinho idêntico ao Scott apareceu, perdido e assustado, pedindo ajuda com o olhar. Ela chamou “Scott!” e, para sua surpresa, ele veio correndo, mas ao pegá-lo no colo, percebeu que era uma fêmea. Aquele olhar de desespero partiu seu coração — não dava pra simplesmente ir embora. \nAssim nasceu a Hosana, nome que simboliza o alívio e a gratidão de tê-la encontrado. \nHoje, Hosana é uma filhotona amorosa, brincalhona, que adora crianças e se dá bem com outros animais. \nAjude essa menina especial a encontrar uma família maravilhosa — ela merece subir nas alturas da felicidade!",
     size: ["Médio", "Grande"],
     imagesURLs: [
       "https://res.cloudinary.com/dyju9midi/image/upload/v1760246737/cachorro_rosana_01_y7dwgc.jpg",
