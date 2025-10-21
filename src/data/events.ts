@@ -20,4 +20,11 @@ export const upcomingEvents = [
     time: "11:00 às 14:00",
     local: "PetCamp - Av. Saburô Akamine, 1125",
   },
+   {
+    id: 4,
+    name: "42° Feira de Adoção",
+    date: "2025-11-09",
+    time: "09:30",
+    local: "PetCamp - Av. Saburô Akamine, 1125",
+  },
 ];
