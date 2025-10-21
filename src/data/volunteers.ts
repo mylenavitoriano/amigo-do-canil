@@ -39,4 +39,9 @@ export const listVolunteers = [
     name: "Suellen",
     image: "/people/suellen-voluntaria.jpg",
   },
+  {
+    id: 8,
+    name: "Rose",
+    image: "/people/rosa-voluntaria.jpg",
+  },
 ];
