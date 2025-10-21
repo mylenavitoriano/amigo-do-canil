@@ -22,7 +22,7 @@ export const upcomingEvents = [
   },
    {
     id: 4,
-    name: "42° Feira de Adoção",
+    name: "Evento Solidário - Grupo Ginástica de Rua",
     date: "2025-11-09",
     time: "09:30",
     local: "PetCamp - Av. Saburô Akamine, 1125",
