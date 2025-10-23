@@ -111,4 +111,17 @@ export const animals = [
       "https://res.cloudinary.com/dyju9midi/image/upload/v1760246906/cachorro_melissa_02_mlk3nt.jpg",
     ],
   },
+   {
+    id: 9,
+    slug: "guto",
+    name: "Guto",
+    gender: "Macho",
+    behavior: "Amoroso",
+    description:
+      "O Guto foi resgatado pela nossa amiga Josiane, em uma situação de risco, muito próximo à rodovia, perto da cidade de Santa Gertrudes. Ele estava apavorado, tremendo e assustadinho — não foi nada fácil pegá-lo, mas com muita paciência, carinho e jeitinho, ele finalmente confiou… e foi salvo! \nO Guto é um cãozinho de porte pequeno, super amoroso e cheio de vontade de ganhar um colo e um lar de verdade. Ele só precisa de uma família responsável, que cuide, ame e ofereça a segurança que ele nunca teve. \nQuer se apaixonar? \nVem conhecer o Guto! Ele pode ser o amor que estava faltando na sua vida. ",
+    size: ["Pequeno"],
+    imagesURLs: [
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761233646/Guto_tqjunf.jpg"
+    ],
+  },
 ];
