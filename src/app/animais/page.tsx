@@ -25,9 +25,11 @@ export default function Animals() {
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 w-full mt-8">
-          {animals.map((animal) => (
-            <CardAnimals key={animal.id} animal={animal} active={true} />
-          ))}
+          {animals
+            .sort(() => Math.random() - 0.5)
+            .map((animal) => (
+              <CardAnimals key={animal.id} animal={animal} active={true} />
+            ))}
         </div>
       </div>
       <Footer />

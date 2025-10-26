@@ -28,7 +28,7 @@ const Header = () => {
       </Link>
 
       <div className="hidden lg:flex gap-8">
-        <div className="flex gap-4 font-medium text-lg">
+        <div className="flex gap-5 font-medium text-lg">
           <p>
             <Link href={"/animais"}>Adote</Link>
           </p>
@@ -76,7 +76,7 @@ const Header = () => {
           <SheetHeader>
             <SheetTitle></SheetTitle>
 
-            <div className="space-y-2 font-semibold mt-4">
+            <div className="space-y-4 font-semibold mt-4 text-lg">
               <p>
                 <Link href={"/animais"}>Adote</Link>
               </p>
@@ -88,20 +88,20 @@ const Header = () => {
               </p>
             </div>
 
-            <div className="flex gap-3 md:gap-4 mt-4">
+            <div className="flex gap-5 md:gap-4 mt-5">
               <Link
                 href={"https://www.facebook.com/share/g/17BbKPq4uu/"}
                 target="_blank"
                 title="Facebook"
               >
-                <FaFacebook size={28} />
+                <FaFacebook size={30} />
               </Link>
               <Link
                 href={"https://www.instagram.com/amigodocanilrioclaro/"}
                 target="_blank"
                 title="Instagram"
               >
-                <FaInstagram size={28} />
+                <FaInstagram size={30} />
               </Link>
               <Link
                 href={
@@ -110,7 +110,7 @@ const Header = () => {
                 target="_blank"
                 title="WhatsApp"
               >
-                <FaWhatsapp size={28} />
+                <FaWhatsapp size={30} />
               </Link>
             </div>
           </SheetHeader>

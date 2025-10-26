@@ -111,17 +111,92 @@ export const animals = [
       "https://res.cloudinary.com/dyju9midi/image/upload/v1760246906/cachorro_melissa_02_mlk3nt.jpg",
     ],
   },
-   {
+  {
     id: 9,
     slug: "guto",
     name: "Guto",
     gender: "Macho",
     behavior: "Amoroso",
     description:
-      "O Guto foi resgatado pela nossa amiga Josiane, em uma situação de risco, muito próximo à rodovia, perto da cidade de Santa Gertrudes. Ele estava apavorado, tremendo e assustadinho — não foi nada fácil pegá-lo, mas com muita paciência, carinho e jeitinho, ele finalmente confiou… e foi salvo! \nO Guto é um cãozinho de porte pequeno, super amoroso e cheio de vontade de ganhar um colo e um lar de verdade. Ele só precisa de uma família responsável, que cuide, ame e ofereça a segurança que ele nunca teve. \nQuer se apaixonar? \nVem conhecer o Guto! Ele pode ser o amor que estava faltando na sua vida. ",
+      "O Guto foi resgatado pela nossa amiga Josiane, em uma situação de risco, muito próximo à rodovia, perto da cidade de Santa Gertrudes. Ele estava apavorado, tremendo e assustadinho — não foi nada fácil pegá-lo, mas com muita paciência, carinho e jeitinho, ele finalmente confiou… e foi salvo! \nO Guto é um cãozinho de porte pequeno, super amoroso e cheio de vontade de ganhar um colo e um lar de verdade. Ele só precisa de uma família responsável, que cuide, ame e ofereça a segurança que ele nunca teve. \nQuer se apaixonar? \nVem conhecer o Guto! Ele pode ser o amor que estava faltando na sua vida.",
     size: ["Pequeno"],
     imagesURLs: [
-      "https://res.cloudinary.com/dyju9midi/image/upload/v1761233646/Guto_tqjunf.jpg"
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761233646/Guto_tqjunf.jpg",
+    ],
+  },
+  {
+    id: 10,
+    slug: "marcelo",
+    name: "Marcelo",
+    gender: "Macho",
+    behavior: "Amoroso e tranquilo",
+    description:
+      "Um senhorzinho muito especial. \nFoi encontrado magrinho, em risco, ali perto da estrada no Clube de Campo — e, mesmo assim, nunca perdeu o jeitinho doce, simpático e cheio de amor que conquista qualquer um. \nEle é calmo, tranquilo, daqueles que encantam só com o olhar… Aliás, precisamos comentar sobre esse olhar: o Marcelo não apenas olha — ele julga! Sabe aquele olhar de “hum… será que você fez carinho em outro cachorro antes de mim?” Pois é! Ele faz exatamente isso — e é simplesmente impossível não se apaixonar.\nA gente sabe que a adoção de um cão idoso nem sempre é fácil. Mas quem sabe o Marcelo ainda encontre o milagre de uma família que enxergue todo o valor que ele carrega — leal, doce e cheio de gratidão. \nE, caso esse milagre ainda demore um pouquinho, ele continuará recebendo todo o amor e cuidado da ONG, como merece. \nSe o olhar julgador (e encantador) do Marcelo tocou seu coração, você pode transformar a vida dele — ou de qualquer outro idosinho do abrigo — sendo padrinho ou madrinha. Porque um gesto de amor assim, muda o mundo.",
+    size: ["Pequeno"],
+    imagesURLs: [
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514248/marcelo_01_aivfey.jpg",
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514446/marcelo_02_iehdvp.jpg",
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514587/marcelo_03_wfrzbm.jpg",
+    ],
+  },
+  {
+    id: 11,
+    slug: "maria",
+    name: "Maria",
+    gender: "Fêmea",
+    behavior: "Ativa e amorosa",
+    description:
+      "A Maria apareceu perdida no estacionamento do supermercado Examine, na Av. Saburo Akamine, no fim de dezembro de 2024 — bem naquela época de festas em que, infelizmente, os fogos assustam tantos animais. \nComo era uma área de grande movimento, com risco de atropelamento, a ONG realizou o resgate para garantir sua segurança. \nE que presente de fim de ano ela foi! \nA Maria é uma cachorrinha doce, amorosa e cheia de vida. Se dá bem com outros animais, adora crianças e tem um jeitinho encantador que conquista qualquer coração. \nSe você busca um amor puro, alegre e cheio de afeto para fazer parte da sua família, venha conhecer a nossa Maria.",
+    size: ["Médio", "Grande"],
+    imagesURLs: [
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514326/maria_01_qvivab.jpg",
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514298/maria_02_itce9b.jpg",
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514277/maria_03_yccklp.jpg",
+    ],
+  },
+  {
+    id: 12,
+    slug: "amy",
+    name: "Amy",
+    gender: "Fêmea",
+    behavior: "Tranquila e carinhosa",
+    description:
+      "A Amy fez parte de uma ninhada deixada na ONG por alguém que, infelizmente, não tinha condições de cuidar dos filhotes. Situações assim são mais comuns do que gostaríamos — e fazem parte do trabalho que realizamos nas feiras de adoção. \nQuando percebemos que uma família realmente não tem estrutura, higiene ou condições para manter os animais, acolhemos os filhotes, levamos para a feira e, os que não são adotados, ficam conosco até encontrarem um lar cheio de amor. \nFoi assim que Amy e sua irmã Pantera chegaram até nós. A Pantera nunca teve um único interessado — e a Amy chegou a ser adotada aos 3 meses, mas foi devolvida  dois meses depois… porque fazia “muita bagunça”. \nHoje, ela segue esperando uma nova chance — e tem tanto amor para dar! A Amy é linda, tem um pelinho macio como camurça, é carinhosa, brincalhona, cheia de energia, adora crianças e se dá super bem com outros animais. \nEla só precisa de uma família que entenda que filhotes crescem, aprendem e se tornam os melhores amigos do mundo. \n Se o seu coração deu aquele “tchan” ao ler sobre ela, venha conhecer a Amy — quem sabe é ela quem está esperando por você.",
+    size: ["Médio"],
+    imagesURLs: [
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514480/amy_01_jxoakd.jpg",
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514553/amy_02_fevqdr.jpg",
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514353/amy_03_acl2v6.jpg",
+    ],
+  },
+  {
+    id: 13,
+    slug: "moreno",
+    name: "Moreno",
+    gender: "Macho",
+    behavior: "Amoroso e brincalhão",
+    description:
+      "De porte médio e já castrado, ele adora brincar, receber carinho e estar por perto. \nFoi encontrado abandonado nas ruas, coberto de carrapatos, mas agora está resgatado, saudável e pronto para recomeçar. \nEle sonha com uma família amorosa, responsável e segura, que lhe dê todo o amor que sempre mereceu.",
+    size: ["Médio"],
+    imagesURLs: [
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514989/moreno_01_ryfaxi.jpg",
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514964/moreno_02_spq3yj.jpg",
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514936/moreno_03_ocncsr.jpg",
+    ],
+  },
+  {
+    id: 14,
+    slug: "luigui",
+    name: "Luigui",
+    gender: "Macho",
+    behavior: "Amoroso e brincalhão",
+    description:
+      "A família se mudou… e deixou o cachorro do lado de fora. Sozinho. Na chuva. Ele esperou, por dias, acreditando que alguém voltaria — mas ninguém voltou. \nOs vizinhos, comovidos, tentaram ajudar: deram água, ração, cobertor… Mas ele continuava ali, fiel, sem entender por que foi deixado para trás. \nAté que o resgate aconteceu. Ele se chamava Beethoven, e agora ganhou um novo nome e uma nova chance: Luigui. \nLuigui é pequeno, amoroso e cheio de vida. Um mestiço de poodle, jovem e pronto para receber o amor que sempre mereceu. \nQuem sabe o final feliz dele não começa com você?",
+    size: ["Médio"],
+    imagesURLs: [
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514989/moreno_01_ryfaxi.jpg",
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514964/moreno_02_spq3yj.jpg",
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514936/moreno_03_ocncsr.jpg",
     ],
   },
 ];

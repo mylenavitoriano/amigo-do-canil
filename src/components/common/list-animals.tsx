@@ -41,7 +41,7 @@ export const ListAnimals = ({ title }: { title?: string }) => {
         </h3>
 
         <Carousel
-          plugins={[Autoplay({ delay: 5000, stopOnInteraction: false })]}
+          plugins={[Autoplay({ delay: 8000, stopOnInteraction: false })]}
           opts={{
             align: "center",
             loop: true,
