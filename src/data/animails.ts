@@ -194,9 +194,20 @@ export const animals = [
       "A família se mudou… e deixou o cachorro do lado de fora. Sozinho. Na chuva. Ele esperou, por dias, acreditando que alguém voltaria — mas ninguém voltou. \nOs vizinhos, comovidos, tentaram ajudar: deram água, ração, cobertor… Mas ele continuava ali, fiel, sem entender por que foi deixado para trás. \nAté que o resgate aconteceu. Ele se chamava Beethoven, e agora ganhou um novo nome e uma nova chance: Luigui. \nLuigui é pequeno, amoroso e cheio de vida. Um mestiço de poodle, jovem e pronto para receber o amor que sempre mereceu. \nQuem sabe o final feliz dele não começa com você?",
     size: ["Médio"],
     imagesURLs: [
-      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514989/moreno_01_ryfaxi.jpg",
-      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514964/moreno_02_spq3yj.jpg",
-      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514936/moreno_03_ocncsr.jpg",
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761516353/luigui_01_yikh37.jpg",
+    ],
+  },
+  {
+    id: 15,
+    slug: "lola",
+    name: "Lola",
+    gender: "Fêmea",
+    behavior: "Carinhosa",
+    description:
+      "A Lola foi abandonada depois de ter dado cria. Ela ficou dias próxima a uma escola municipal, chorando… Um choro constante, doído, que partia o coração de todos que a viam. Era impossível ignorar aquele pedido silencioso de ajuda. \nMesmo sem condições de resgatar uma cachorra de porte grande naquele momento, não conseguimos virar as costas. A Lola foi resgatada e hoje está em um lar temporário pago, graças ao esforço de voluntários que se uniram para garantir a ela segurança, conforto e dignidade. \nAgora, Lola está castrada, protegida e… feliz! Ela é extremamente amorosa, se dá bem com outros animais e tem um jeitinho doce que conquista qualquer um. \nA Lola merece uma família que enxergue o valor desse coração gigante. Dê uma chance à Lola — e ganhe um amor verdadeiro para a vida toda.",
+    size: ["Grande"],
+    imagesURLs: [
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761516353/luigui_01_yikh37.jpg",
     ],
   },
 ];
