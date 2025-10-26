@@ -207,7 +207,7 @@ export const animals = [
       "A Lola foi abandonada depois de ter dado cria. Ela ficou dias próxima a uma escola municipal, chorando… Um choro constante, doído, que partia o coração de todos que a viam. Era impossível ignorar aquele pedido silencioso de ajuda. \nMesmo sem condições de resgatar uma cachorra de porte grande naquele momento, não conseguimos virar as costas. A Lola foi resgatada e hoje está em um lar temporário pago, graças ao esforço de voluntários que se uniram para garantir a ela segurança, conforto e dignidade. \nAgora, Lola está castrada, protegida e… feliz! Ela é extremamente amorosa, se dá bem com outros animais e tem um jeitinho doce que conquista qualquer um. \nA Lola merece uma família que enxergue o valor desse coração gigante. Dê uma chance à Lola — e ganhe um amor verdadeiro para a vida toda.",
     size: ["Grande"],
     imagesURLs: [
-      "https://res.cloudinary.com/dyju9midi/image/upload/v1761516353/luigui_01_yikh37.jpg",
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761516773/lola_01_of4fve.jpg",
     ],
   },
 ];
