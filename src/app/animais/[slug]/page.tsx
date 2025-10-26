@@ -89,7 +89,7 @@ const AnimalDetailsPage = async ({ params }: AnimalDetailsPageProps) => {
             />
           </div>
 
-          <div className="w-full lg:w-[50%] space-y-5 lg:space-y-8 lg:mt-16">
+          <div className="w-full lg:w-[50%] space-y-5 lg:space-y-8">
             <div className="space-y-1 md:space-y-2">
               <h3 className="text-xl md:text-2xl font-semibold text-text-primary text-start">
                 Adote {animalDetail.gender == "Macho" ? "o" : "a"}{" "}

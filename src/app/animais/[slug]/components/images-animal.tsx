@@ -22,22 +22,26 @@ const ImagesAnimal = ({ variants, nameAnimal }: ImagesAnimalProps) => {
         className="h-auto w-full rounded-3xl"
       />
 
-      <div className="flex items-center gap-2 mt-2">
-        {variants.map((variant, index) => (
-          <Image
-            key={index}
-            src={variant}
-            alt={nameAnimal}
-            width={80}
-            height={80}
-            className={cn(
-              "rounded-xl cursor-pointer",
-              imageSelected == index ? "border-primary rounded-xl border-3" : ""
-            )}
-            onClick={() => setImageSelected(index)}
-          />
-        ))}
-      </div>
+      {variants.length > 1 && (
+        <div className="flex items-center gap-2 mt-2">
+          {variants.map((variant, index) => (
+            <Image
+              key={index}
+              src={variant}
+              alt={nameAnimal}
+              width={80}
+              height={80}
+              className={cn(
+                "rounded-xl cursor-pointer",
+                imageSelected == index
+                  ? "border-primary rounded-xl border-3"
+                  : ""
+              )}
+              onClick={() => setImageSelected(index)}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 };
