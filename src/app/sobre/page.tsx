@@ -6,6 +6,7 @@ import { Volunteers } from "./components/volunteers";
 import { Contribute } from "../../components/common/contribute";
 
 import type { Metadata } from "next";
+import { Adoptions } from "./components/adoptions";
 
 export const metadata: Metadata = {
   title: "Sobre nós | Amigo do Canil",
@@ -69,6 +70,7 @@ export default function SobreNos() {
 
         <Coordination />
         <Volunteers />
+        <Adoptions />
       </div>
       <Contribute />
       <Footer />
