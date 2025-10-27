@@ -210,7 +210,7 @@ export const animals = [
       "https://res.cloudinary.com/dyju9midi/image/upload/v1761516773/lola_01_of4fve.jpg",
     ],
   },
-   {
+  {
     id: 16,
     slug: "briganze",
     name: "Briganzé",
@@ -222,6 +222,19 @@ export const animals = [
     imagesURLs: [
       "https://res.cloudinary.com/dyju9midi/image/upload/v1761573989/briganze_01_biaptv.jpg",
       "https://res.cloudinary.com/dyju9midi/image/upload/v1761574016/briganze_02_slkkm8.jpg",
+    ],
+  },
+  {
+    id: 17,
+    slug: "alok",
+    name: "Alok",
+    gender: "Macho",
+    behavior: "Amoroso e animado",
+    description:
+      "1 aninho • Castrado • Vacinas em dia \nO Alok é um grandão rajado (estilo tigrado) cheio de amor e energia pra passear! E tem um detalhe exclusivo de fábrica: rabinho de pug! Sim, ele é um vira-lata edição limitada, simplesmente irresistível! \nAgora, ele só procura uma família que ame, cuide e enxergue o companheiro incrível que ele é.",
+    size: ["Grande"],
+    imagesURLs: [
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761594918/alok_01_f3bibi.jpg",
     ],
   },
 ];
