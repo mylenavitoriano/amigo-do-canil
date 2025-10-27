@@ -1,24 +1,23 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://www.amigodocanil.com.br", // domínio principal com www
-  generateRobotsTxt: true, // gera o arquivo robots.txt automaticamente
-  sitemapSize: 5000, // separa o sitemap se houver muitas páginas
-  changefreq: "weekly", // frequência esperada de atualização das páginas
-  priority: 0.7, // prioridade padrão
-  autoLastmod: true, // adiciona automaticamente a data da última modificação
-  exclude: ["/404"], // exclui páginas de erro do sitemap
+  siteUrl: "https://www.amigodocanil.com.br",
+  generateRobotsTxt: true,
+  sitemapSize: 5000,
+  changefreq: "weekly",
+  priority: 0.7,
+  autoLastmod: true,
+  exclude: ["/404"],
   robotsTxtOptions: {
     policies: [
       {
         userAgent: "*",
-        allow: "/", // permite indexar todas as páginas principais
+        allow: "/",
         disallow: ["/404", "/api/", "/admin", "/server-sitemap-index.xml"],
       },
       {
-        userAgent: "Googlebot-Image", // otimização para o Google Imagens
+        userAgent: "Googlebot-Image",
         allow: ["/images/", "/public/"],
       },
     ],
-    additionalSitemaps: ["https://www.amigodocanil.com.br/sitemap.xml"],
   },
 };
