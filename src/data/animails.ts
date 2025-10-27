@@ -210,4 +210,18 @@ export const animals = [
       "https://res.cloudinary.com/dyju9midi/image/upload/v1761516773/lola_01_of4fve.jpg",
     ],
   },
+   {
+    id: 16,
+    slug: "briganze",
+    name: "Briganzé",
+    gender: "Macho",
+    behavior: "Carinhoso e dengoso",
+    description:
+      "Brigadeiro ou Banzé? \n Gente, esse filhote está causando a treta do bem aqui na ONG! Metade do grupo jura que ele tem cara de Brigadeiro, e a outra metade defende com unhas e dentes que é a cara do Banzé. Solução?  Chame como quiser… desde que chame pra dar amor! \nEsse docinho (ou espoletinha, depende do humor do dia) é um dos filhotes que não foram escolhidos na feira de adoção — e acabou ficando conosco. Agora já está com 4 meses de pura fofura e energia boa! \nEle é um fiapo de manga daqueles fáceis de amar: \n - Pretinho lindo \n - Super carinhoso \n - Ama crianças \n - Se dá bem com outros animais \n - Dengoso oficial do abrigo \nBrigadeiro, Banzé… ou quem sabe BriganZé (olha a gente inventando moda) — o importante é que ele é o amigo perfeito pra transformar qualquer casa em um lar cheio de alegria e amor!  \nVenha conhecer esse amorzinho e deixe ele te conquistar!",
+    size: ["Pequeno", "Médio"],
+    imagesURLs: [
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761573989/briganze_01_biaptv.jpg",
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1761574016/briganze_02_slkkm8.jpg",
+    ],
+  },
 ];
