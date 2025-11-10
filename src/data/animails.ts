@@ -241,11 +241,11 @@ export const animals = [
     id: 18,
     slug: "belinha-pinguinho",
     name: "Belinha e Pinguinho",
-    gender: "Macho & Fêmea",
+    gender: "Fêmea & Macho",
     behavior: "Amorosos e parceiros",
     description:
-      "A família foi embora e deixou essas duas preciosidades pra trás. Eles foram encontrados no bairro Pé no Chão e resgatados pelo nosso amigo Bruno, que mesmo com um pitbull em casa e sem condições no momento, fez o que é certo e pediu ajuda. Bruno,agradecemos! Obrigada por proteger esses dois anjinhos! \n Belinha e Pinguinho vieram para a ONG por serem porte pequeno (porque olha… de porte médio e macho adulto a casa tá explodindo já!). Essa dupla foi castrada, estão cuidados com muito carinho e agora estão prontíssimos para adoção… juntos! Por quê? Porque são inseparáveis. Dormem juntos. Comem no mesmo pote. Andam grudados! \n Eles precisam de: \n• muito amor (óbvio!) \n• tempo e responsabilidade \n• espaço seguro \n• ambiente de casa, porque eles não aceitam viver do lado de fora",
-    size: ["Grande"],
+      "A família foi embora e deixou essas duas preciosidades pra trás. Eles foram encontrados no bairro Pé no Chão e resgatados pelo nosso amigo Bruno, que mesmo com um pitbull em casa e sem condições no momento, fez o que é certo e pediu ajuda. Bruno,agradecemos! Obrigada por proteger esses dois anjinhos! \n Belinha e Pinguinho vieram para a ONG por serem porte pequeno (porque olha… de porte médio e macho adulto a casa tá explodindo já!). Essa dupla foi castrada, estão cuidados com muito carinho e agora estão prontíssimos para adoção… juntos! Por quê? Porque são inseparáveis. Dormem juntos. Comem no mesmo pote. Andam grudados! \n Eles precisam de: \n• Muito amor (óbvio!) \n• Tempo e responsabilidade \n• Espaço seguro \n• ambiente de casa, porque eles não aceitam viver do lado de fora",
+    size: ["Pequeno"],
     imagesURLs: [
       "https://res.cloudinary.com/dyju9midi/image/upload/v1762779636/belinha_pinguinho_q7fbol.jpg",
     ],
