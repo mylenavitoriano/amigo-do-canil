@@ -111,19 +111,19 @@ export const animals = [
       "https://res.cloudinary.com/dyju9midi/image/upload/v1760246906/cachorro_melissa_02_mlk3nt.jpg",
     ],
   },
-  {
-    id: 9,
-    slug: "guto",
-    name: "Guto",
-    gender: "Macho",
-    behavior: "Amoroso",
-    description:
-      "O Guto foi resgatado pela nossa amiga Josiane, em uma situação de risco, muito próximo à rodovia, perto da cidade de Santa Gertrudes. Ele estava apavorado, tremendo e assustadinho — não foi nada fácil pegá-lo, mas com muita paciência, carinho e jeitinho, ele finalmente confiou… e foi salvo! \nO Guto é um cãozinho de porte pequeno, super amoroso e cheio de vontade de ganhar um colo e um lar de verdade. Ele só precisa de uma família responsável, que cuide, ame e ofereça a segurança que ele nunca teve. \nQuer se apaixonar? \nVem conhecer o Guto! Ele pode ser o amor que estava faltando na sua vida.",
-    size: ["Pequeno"],
-    imagesURLs: [
-      "https://res.cloudinary.com/dyju9midi/image/upload/v1761233646/Guto_tqjunf.jpg",
-    ],
-  },
+  // {
+  //   id: 9,
+  //   slug: "guto",
+  //   name: "Guto",
+  //   gender: "Macho",
+  //   behavior: "Amoroso",
+  //   description:
+  //     "O Guto foi resgatado pela nossa amiga Josiane, em uma situação de risco, muito próximo à rodovia, perto da cidade de Santa Gertrudes. Ele estava apavorado, tremendo e assustadinho — não foi nada fácil pegá-lo, mas com muita paciência, carinho e jeitinho, ele finalmente confiou… e foi salvo! \nO Guto é um cãozinho de porte pequeno, super amoroso e cheio de vontade de ganhar um colo e um lar de verdade. Ele só precisa de uma família responsável, que cuide, ame e ofereça a segurança que ele nunca teve. \nQuer se apaixonar? \nVem conhecer o Guto! Ele pode ser o amor que estava faltando na sua vida.",
+  //   size: ["Pequeno"],
+  //   imagesURLs: [
+  //     "https://res.cloudinary.com/dyju9midi/image/upload/v1761233646/Guto_tqjunf.jpg",
+  //   ],
+  // },
   {
     id: 10,
     slug: "marcelo",
@@ -169,34 +169,34 @@ export const animals = [
       "https://res.cloudinary.com/dyju9midi/image/upload/v1761514353/amy_03_acl2v6.jpg",
     ],
   },
-  {
-    id: 13,
-    slug: "moreno",
-    name: "Moreno",
-    gender: "Macho",
-    behavior: "Amoroso e brincalhão",
-    description:
-      "De porte médio e já castrado, ele adora brincar, receber carinho e estar por perto. \nFoi encontrado abandonado nas ruas, coberto de carrapatos, mas agora está resgatado, saudável e pronto para recomeçar. \nEle sonha com uma família amorosa, responsável e segura, que lhe dê todo o amor que sempre mereceu.",
-    size: ["Médio"],
-    imagesURLs: [
-      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514989/moreno_01_ryfaxi.jpg",
-      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514964/moreno_02_spq3yj.jpg",
-      "https://res.cloudinary.com/dyju9midi/image/upload/v1761514936/moreno_03_ocncsr.jpg",
-    ],
-  },
-  {
-    id: 14,
-    slug: "luigui",
-    name: "Luigui",
-    gender: "Macho",
-    behavior: "Amoroso e brincalhão",
-    description:
-      "A família se mudou… e deixou o cachorro do lado de fora. Sozinho. Na chuva. Ele esperou, por dias, acreditando que alguém voltaria — mas ninguém voltou. \nOs vizinhos, comovidos, tentaram ajudar: deram água, ração, cobertor… Mas ele continuava ali, fiel, sem entender por que foi deixado para trás. \nAté que o resgate aconteceu. Ele se chamava Beethoven, e agora ganhou um novo nome e uma nova chance: Luigui. \nLuigui é pequeno, amoroso e cheio de vida. Um mestiço de poodle, jovem e pronto para receber o amor que sempre mereceu. \nQuem sabe o final feliz dele não começa com você?",
-    size: ["Médio"],
-    imagesURLs: [
-      "https://res.cloudinary.com/dyju9midi/image/upload/v1761516353/luigui_01_yikh37.jpg",
-    ],
-  },
+  // {
+  //   id: 13,
+  //   slug: "moreno",
+  //   name: "Moreno",
+  //   gender: "Macho",
+  //   behavior: "Amoroso e brincalhão",
+  //   description:
+  //     "De porte médio e já castrado, ele adora brincar, receber carinho e estar por perto. \nFoi encontrado abandonado nas ruas, coberto de carrapatos, mas agora está resgatado, saudável e pronto para recomeçar. \nEle sonha com uma família amorosa, responsável e segura, que lhe dê todo o amor que sempre mereceu.",
+  //   size: ["Médio"],
+  //   imagesURLs: [
+  //     "https://res.cloudinary.com/dyju9midi/image/upload/v1761514989/moreno_01_ryfaxi.jpg",
+  //     "https://res.cloudinary.com/dyju9midi/image/upload/v1761514964/moreno_02_spq3yj.jpg",
+  //     "https://res.cloudinary.com/dyju9midi/image/upload/v1761514936/moreno_03_ocncsr.jpg",
+  //   ],
+  // },
+  // {
+  //   id: 14,
+  //   slug: "luigui",
+  //   name: "Luigui",
+  //   gender: "Macho",
+  //   behavior: "Amoroso e brincalhão",
+  //   description:
+  //     "A família se mudou… e deixou o cachorro do lado de fora. Sozinho. Na chuva. Ele esperou, por dias, acreditando que alguém voltaria — mas ninguém voltou. \nOs vizinhos, comovidos, tentaram ajudar: deram água, ração, cobertor… Mas ele continuava ali, fiel, sem entender por que foi deixado para trás. \nAté que o resgate aconteceu. Ele se chamava Beethoven, e agora ganhou um novo nome e uma nova chance: Luigui. \nLuigui é pequeno, amoroso e cheio de vida. Um mestiço de poodle, jovem e pronto para receber o amor que sempre mereceu. \nQuem sabe o final feliz dele não começa com você?",
+  //   size: ["Médio"],
+  //   imagesURLs: [
+  //     "https://res.cloudinary.com/dyju9midi/image/upload/v1761516353/luigui_01_yikh37.jpg",
+  //   ],
+  // },
   {
     id: 15,
     slug: "lola",
