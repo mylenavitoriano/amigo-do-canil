@@ -11,7 +11,7 @@ export const listVolunteers = [
   },
   {
     id: 2,
-    name: "Eduardo",
+    name: "Carlos Eduardo",
     image: "https://res.cloudinary.com/dyju9midi/image/upload/v1761226005/eduardo_wclnwn.jpg",
   },
   {
@@ -48,5 +48,15 @@ export const listVolunteers = [
     id: 9,
     name: "Anderson e Andreia",
     image: "https://res.cloudinary.com/dyju9midi/image/upload/v1761226104/anderson-andrea_p9ctgi.jpg",
+  },
+  {
+    id: 10,
+    name: "Naiara",
+    image: "https://res.cloudinary.com/dyju9midi/image/upload/v1764368271/naiara_e0hmnz.jpg",
+  },
+  {
+    id: 11,
+    name: "Gabriel",
+    image: "https://res.cloudinary.com/dyju9midi/image/upload/v1764368289/gabriel_eihteq.jpg",
   },
 ];
