@@ -250,4 +250,18 @@ export const animals = [
       "https://res.cloudinary.com/dyju9midi/image/upload/v1762779636/belinha_pinguinho_q7fbol.jpg",
     ],
   },
+    {
+    id: 19,
+    slug: "kim",
+    name: "Kim",
+    gender: "Macho",
+    behavior: "Calmo e carinhoso",
+    description:
+      "O nosso amigo Álvaro, que sempre ajuda a ONG e é super atento aos animais, trabalhava em uma empresa na área rural. Lá, alguns cachorros viviam no local e eram cuidados pelos funcionários. Aos poucos, começamos a buscar lares para todos, para que não ficassem desamparados — cada um já tinha nome, rotina e uma pequena história. \nEntre eles, havia um que sempre se destacava pela timidez: o Kim.Segundo o Álvaro, ele vivia escondido, sempre afastado dos outros, quietinho no seu próprio mundo. \nUm dia, passando por uma área de mata, o Álvaro percebeu um movimento estranho. O Kim estava ainda mais oculto que o normal. Ele saía, comia rapidinho e corria para se esconder de novo. Quando o Álvaro finalmente conseguiu se aproximar, veio o choque: o Kim estava tomado por bicheira no rosto, na cabeça, perto do olho. \nEle foi internado por bastante tempo. Mesmo assim, em todos os momentos, continuou sendo extremamente bonzinho. Um cachorro pacífico, silencioso… mas muito, muito assustado. \nA gente nunca soube o que ele passou. Os cães ficavam soltos à noite, sozinhos, e o Kim sempre manteve distância do grupo. Ele observa tudo de longe. E, quando alguém se aproxima com calma, ele aceita carinho — sem rosnar, sem reagir mal — apenas com aquele jeitinho frágil de quem não sabe se pode confiar. \nO Kim melhorou muito. Graças a Deus, não perdeu o olho. Hoje vive na ONG, protegido. Mas quando alguém visita o abrigo para adoção, ele se torna invisível… porque se esconde. E a gente sempre aponta: “Tá vendo aquele ali? Ele tem muito medo, mas é um amor.” \nQuem sabe um dia o Kim encontre uma família que enxergue além do medo. Uma casa tranquila, com poucos animais, com muito carinho e paciência. Uma família capaz de ajudar o Kim a curar seus traumas com amor e gentileza — no tempo dele. \nDê uma chance ao Kim.",
+    size: ["Médio"],
+    imagesURLs: [
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1764270890/kim_01_xjra1v.jpg",
+      "https://res.cloudinary.com/dyju9midi/image/upload/v1764270890/kim_02_pgvfzb.jpg"
+    ],
+  },
 ];
