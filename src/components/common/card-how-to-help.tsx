@@ -25,7 +25,7 @@ export const CardHowToHelp = ({
       className={`
         relative rounded-2xl overflow-hidden p-6 text-white flex flex-col items-start justify-end
         h-full md:h-[320px] lg:h-[340px]
-        w-full md:transition-all md:duration-700 md:ease-in-out md:cursor-pointer
+        w-full md:transition-all md:duration-700 md:ease-in-out
         ${isActive ? "md:w-[40%]" : "md:w-[20%]"}
       `}
       style={{
