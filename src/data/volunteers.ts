@@ -20,16 +20,6 @@ export const listVolunteers = [
     image: "https://res.cloudinary.com/dyju9midi/image/upload/v1761226012/pablo_b2etjh.jpg",
   },
   {
-    id: 4,
-    name: "Mylena",
-    image: "https://res.cloudinary.com/dyju9midi/image/upload/v1761226004/mylena_zdz0p6.jpg",
-  },
-  {
-    id: 5,
-    name: "Lucas",
-    image: "https://res.cloudinary.com/dyju9midi/image/upload/v1764367900/lucas_viunt7.jpg",
-  },
-  {
     id: 6,
     name: "Nádia",
     image: "https://res.cloudinary.com/dyju9midi/image/upload/v1761226003/nadia_l29heg.jpg",
@@ -48,15 +38,5 @@ export const listVolunteers = [
     id: 9,
     name: "Anderson e Andreia",
     image: "https://res.cloudinary.com/dyju9midi/image/upload/v1761226104/anderson-andrea_p9ctgi.jpg",
-  },
-  {
-    id: 10,
-    name: "Naiara",
-    image: "https://res.cloudinary.com/dyju9midi/image/upload/v1764368271/naiara_e0hmnz.jpg",
-  },
-  {
-    id: 11,
-    name: "Gabriel",
-    image: "https://res.cloudinary.com/dyju9midi/image/upload/v1764368289/gabriel_eihteq.jpg",
   },
 ];
